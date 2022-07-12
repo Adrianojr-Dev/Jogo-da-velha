@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    background-color: black;
+    color: rgb(199, 198, 198);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    border: 1px solid black;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.o{
+    position: relative;
+}
+
+.o:after{
+    position: absolute;
+    font-size: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "\1F6E1";
+    line-height: 100px;
+
+}
+
+.x{
+    position: relative;
+}
+
+.x:after{
+    position: absolute;
+    font-size: 80px;
+    
+    left: 50%;
+    transform: translateX(-50%);
+    content: "\2694";
+    line-height: 100px;
+}
+
+.bt{
+    cursor: pointer;
+    margin-top: 20px;
+    width: 315px;
+    height: 33px;
+    background-color: crimson;
+    color: white;
+}
+
+.bt:hover{
+    background-color: rgba(220, 20, 60, 0.733);
+}
+
+.contador{
+    margin: auto;
+    width: 200px;
+}
